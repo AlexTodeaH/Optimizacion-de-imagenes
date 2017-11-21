@@ -1,0 +1,58 @@
+body { 
+	padding: 4em; 
+	font: 1.125em sans-serif; 
+	background: #eff5f5; 
+	color: #31656e; 
+	text-align: center; 
+}
+h1 { 
+	font-weight: 900; 
+	font-size: 1.6em; 
+	line-height: 1.2; 
+}
+h2 { 
+	font-weight: 400; 
+	font-size: 1em; 
+	color: #597a80; 
+	text-transform: uppercase; 
+	letter-spacing: .25em; 
+}
+h3 {
+	font-size:0.8em;
+	margin: .5em 0 4em;
+}
+
+p {
+	font-size: 14px;
+}
+
+.flexwrapper {
+ 	margin-left: 20%; 
+ 	width:60%;
+ 	display: flex;
+ 	justify-content: space-between;
+}
+
+.flexwrapper section {
+	width: 48%;
+	height: 2%;
+}
+
+.flexwrapper > section:nth-child(even) { 
+	background: #a9cc5b; 
+}
+
+.flexwrapper > section:nth-child(odd) { 
+	background: #39b4e0; 
+}
+
+.flexwrapper img {
+	margin-top:1.5%;
+	width: 96%;
+}
+
+.flexwrapper article{
+	width: 100%;
+	height: 85px;
+	background-color: #E6E6E6;
+}
